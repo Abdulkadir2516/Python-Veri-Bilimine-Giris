@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<item>
+		<stockCode><![CDATA[STK123456]]></stockCode> ----------------------------------------> Ürün stok kodu. CDATA olmadan da gönderilebilir. HTML kullanılamaz.
+		<label><![CDATA[Ürün Adı]]></label> -------------------------------------------------> Ürün adı. CDATA olmadan da gönderilebilir. HTML kullanılamaz.
+		<status>1</status> ------------------------------------------------------------------> Ürün durumu. 1 Aktif, 0 Pasif.
+		<brand><![CDATA[Marka]]></brand> ----------------------------------------------------> Ürün markası. CDATA olmadan da gönderilebilir. HTML kullanılamaz.
+		<mainCategory><![CDATA[Ana Kategori]]></mainCategory> -------------------------------> 1. Seviye kategori. CDATA olmadan da gönderilebilir. HTML kullanılamaz.
+		<category><![CDATA[Kategori]]></category> -------------------------------------------> 2. Seviye kategori. CDATA olmadan da gönderilebilir. HTML kullanılamaz.
+		<subCategory><![CDATA[Alt Kategori]]></subCategory> ---------------------------------> 3. Seviye kategori. CDATA olmadan da gönderilebilir. HTML kullanılamaz.
+		<isOptionedProduct>0</isOptionedProduct> --------------------------------------------> Eğer ürün seçenekli bir ürünse 1 yapılmalıdır.  Ürün aynı anda hem seçenek, hem seçenekli ürün olamaz. Örneğin ürünün M, L, XL gibi seçenekleri mevcursa 1 yapılmalıdır.
+		<isOptionOfAProduct>0</isOptionOfAProduct> ------------------------------------------> Eğer ürün bir başka ürünün seçeneği ise 1 yapılmalıdır. Ürün aynı anda hem seçenek, hem seçenekli ürün olamaz. Örneğin ürün L beden olarak bir başka ürüne seçenek olacaksa 1 yapılmalıdır.
+		<rootProductStockCode></rootProductStockCode> ---------------------------------------> Eğer ürün bir başka ürünün seçeneği ise bu alana seçeneği olduğu ürünün stok kodu yazılmalıdır. Örneğin L beden A ürününün seçeneği ise bu alana A ürününün stok kodu yazılmalıdır.
+		<marketPrice><![CDATA[200]]></marketPrice> ------------------------------------------> Ürün için piyasa fiyatı belirtebilirsiniz. Zorunlu alan değildir.
+		<buyingPrice>50.00</buyingPrice> ----------------------------------------------------> Ürün için alış fiyatı belirtebilirsiniz. Zorunlu alan değildir.
+		<price1>100</price1> ----------------------------------------------------------------> Ürün satış fiyatı. Zorunlu alandır.
+		<price2>90</price2> -----------------------------------------------------------------> Eğer ürünü farklı kullanıcılara farklı fiyatlardan satmak istiyorsanız bu alanı da doldurabilirsiniz.
+		<price3>80</price3> -----------------------------------------------------------------> Eğer ürünü farklı kullanıcılara farklı fiyatlardan satmak istiyorsanız bu alanı da doldurabilirsiniz.
+		<price4>70</price4> -----------------------------------------------------------------> Eğer ürünü farklı kullanıcılara farklı fiyatlardan satmak istiyorsanız bu alanı da doldurabilirsiniz.
+		<price5>60</price5> -----------------------------------------------------------------> Eğer ürünü farklı kullanıcılara farklı fiyatlardan satmak istiyorsanız bu alanı da doldurabilirsiniz.
+		<tax>18</tax> -----------------------------------------------------------------------> KDV oranı.
+		<currencyAbbr>TL</currencyAbbr> -----------------------------------------------------> Parabirimi. Para birimi sadece USD, EURO, POUND ya da TL olabilir. Eğer ürün parabirimi USD ise kısatlama olarak $ yazılamaz. Bu durum EURO ve POUND için de geçerlidir.
+		<rebateType>1</rebateType> ----------------------------------------------------------> Ürünlere indirim uygulayacaksanız kullanabileceğiniz seçenektir. 1 olursa indirim yüzdesi, 0 olursa indirim tutarı olarak kullanılır. 
+		<rebate>20</rebate> -----------------------------------------------------------------> Ürünlere uyguladığınız indirim miktarıdır. rebateType ile birlikte kullanılır. Belirtilen rebateType'a göre bu alana girilen değer indirim olarak yansıtılır.
+		<moneyOrder>5</moneyOrder> ----------------------------------------------------------> Havale indirim tutarıdır.
+		<stockAmount>50</stockAmount> -------------------------------------------------------> Stok adedi.
+		<stockType><![CDATA[Adet]]></stockType> ---------------------------------------------> Stok tipidir. Adet, cm, düzine, gram, kg, kişi, paket, metre, m2 olabilir.
+		<warranty>24</warranty> -------------------------------------------------------------> Ürün garanti süresi ay olarak belirtilmelidir.
+		<picture1Path><![CDATA[http://www.ideasoft.com.tr/resim1.jpg]]></picture1Path> ------> Ürün resimleri URL olarak verilmelidir. Sadece resim.jpg şeklinde dosya isimleri kabul edilmemektedir.
+		<picture2Path><![CDATA[http://www.ideasoft.com.tr/resim2.jpg]]></picture2Path> ------> Ürün resimleri URL olarak verilmelidir. Sadece resim.jpg şeklinde dosya isimleri kabul edilmemektedir.
+		<picture3Path><![CDATA[http://www.ideasoft.com.tr/resim3.jpg]]></picture3Path> ------> Ürün resimleri URL olarak verilmelidir. Sadece resim.jpg şeklinde dosya isimleri kabul edilmemektedir.
+		<picture4Path><![CDATA[http://www.ideasoft.com.tr/resim4.jpg]]></picture4Path> ------> Ürün resimleri URL olarak verilmelidir. Sadece resim.jpg şeklinde dosya isimleri kabul edilmemektedir.
+		<dm3>10</dm3> -----------------------------------------------------------------------> Ürün desisi.
+		<details><![CDATA[Ürün detayları]]></details> ---------------------------------------> Ürün detayları. Eğer HTML kullanılacaksa ürün açıklamaları CDATA içerisinde girilmelidir. Eğer HTML kullanılmayacaksa CDATA kullanılmadan da ürün detayları girilebilir.
+		<multipleOptions><![CDATA[]]></multipleOptions> -------------------------------------> Eğer ürünlere hızlı bir şekilde seçenek eklemek isterseniz bu alanı seçenekler arasına virgül koyaral doldurabilirsiniz. Örneğin M,L,XL . Bu şekilde ekleyeceğiniz seçenekler ana üründen fiyat, stok ve desi bilgilerini alacaktır. Seçenekli ürünlerin bu kullanım tipinde seçenekler için resim, stok adedi, stok kodu, ürün bilgisi gibi değerleri belirtmeniz mümkün değildir. Eğer seçenekli ürünleri bu şekilde kullanmak istemezseniz xml'den bu alanı çıkartabilir ve yukarıda belirtilen şekilde kullanabilirsiniz.
+	</item>
+</root>

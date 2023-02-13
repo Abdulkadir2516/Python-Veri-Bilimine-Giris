@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+ <item>
+  <stockCode><![CDATA[ACMNSWX2]]></stockCode> <!-- Stok kodu (Zorunlu alan) ; Benzersiz olmalıdır. -->
+  <label><![CDATA[Kahve Deri Düz Ayakkabı]]></label> <!-- Ürün Adı (Zorunlu alan) -->
+  <status>1</status> <!-- Ürün Durumu ; 1 Aktif , 0 Pasif -->
+  <brand><![CDATA[Brion]]></brand>  <!-- Marka Adı  -->
+  <brandId>10296</brandId> <!-- Marka ID -->
+  <barcode></barcode> <!-- Barkod -->
+  <mainCategory><![CDATA[Ayakkabı]]></mainCategory> <!-- Ana Kategori Adı (Zorunlu Alan)-->
+  <category><![CDATA[Bayan Ayakkabı]]></category> <!-- 2. seviye kategori -->
+  <subCategory><![CDATA[Babet]]></subCategory> <!-- 3. Seviye kategori -->
+  <buyingPrice>0.000</buyingPrice> <!-- Alış Fiyatı -->
+  <price1>143.220</price1> <!-- Fiyat 1, satış fiyatı. -->
+  <price2>0.000</price2> <!-- Fiyat 2, satış fiyatı. -->
+  <price3>0.000</price3> <!-- Fiyat 3, satış fiyatı. -->
+  <price4>0.000</price4> <!-- Fiyat 4, satış fiyatı. -->
+  <price5>0.000</price5> <!-- Fiyat 5, satış fiyatı. -->
+  <tax>18</tax> <!-- KDV -->
+  <currencyAbbr>TL</currencyAbbr> <!-- Para Birimi; Türk lirası "TL" , Dolar "USD" , Euro "EUR" , Pound "GBP" , Japon Yeni "JPY" , İsviçre Frangı "CHF" -->
+  <stockAmount>1</stockAmount> <!-- Stok adedi -->
+  <stockType><![CDATA[Adet]]></stockType> <!-- Stok tipi -->
+  <warranty>24</warranty> <!-- Garanti süresi -->
+  <picture1Path><![CDATA[http://siteadi.com/modules/catalog/products/pr_01_158148_max.jpg?rev=1453707778]]></picture1Path><!-- Resim 1 URL -->
+  <picture2Path><![CDATA[http://siteadi.com/modules/catalog/products/pr_02_158148_max.jpg?rev=1453707778]]></picture2Path><!-- Resim 2 URL -->
+  <picture3Path><![CDATA[http://siteadi.com/modules/catalog/products/pr_03_158148_max.jpg?rev=1453707778]]></picture3Path><!-- Resim 3 URL -->
+  <picture4Path><![CDATA[http://siteadi.com/modules/catalog/products/pr_04_158148_max.jpg?rev=1453707778]]></picture4Path><!-- Resim 4 URL -->
+  <dm3>0.0000</dm3> <!-- Desi -->
+  <details><![CDATA[<div>Marka <span class="Apple-tab-span" style="white-space:pre"></span>: <span class="Apple-tab-span" style="white-space:pre"></span>Be Live</div>
+<div>Materyal<span class="Apple-tab-span" style="white-space:pre"></span>:<span class="Apple-tab-span" style="white-space:pre"></span>Deri</div>
+<div>Taban<span class="Apple-tab-span" style="white-space:pre"></span>:<span class="Apple-tab-span" style="white-space:pre"></span>Termo Hazır Taban</div><br />]]></details><!-- Ürün detayı, HTML Kullanılabilir. -->
+  <rebate>10.00000</rebate> <!-- İndirim oranı; Buraya girilen değerin indirim yüzdesi / indirimi fiyatı seçeneğini "rebateType" alanından belirtebilirsiniz. -->
+  <rebateType>1</rebateType> <!-- "rebate" alanına girilen değerin indirim yüzdesi / indirimli fiyatı seçeneğini belirleyebilirsiniz. "1" Yüzde , "0" indirimli fiyattır. -->
+  <variants><!-- VARYANT Kullanılması durumunda eklenmelidir. -->
+   <variant>
+    <vStockCode><![CDATA[ACMNSWX2_47f080]]></vStockCode><!-- Varyant stok kodu, Ana ürün stok kodundan farklı olmalıdır. -->
+    <vBarcode></vBarcode> <!-- Varyant barkod -->
+    <vStockAmount>1</vStockAmount> <!-- varyant stok adedi -->
+    <vBuyingPrice>0.000</vBuyingPrice> <!-- Varyant Alış fiyatı. -->
+    <vPrice1>143.220</vPrice1> <!-- Varyant fiyat 1 -->
+    <vPrice2>0.000</vPrice2> <!-- Varyant fiyat 2 -->
+    <vPrice3>0.000</vPrice3> <!-- Varyant fiyat 3 -->
+    <vPrice4>0.000</vPrice4> <!-- Varyant fiyat 4 -->
+    <vPrice5>0.000</vPrice5> <!-- Varyant fiyat 5 -->
+    <vRebate>10.00000</vRebate> <!-- Varyant İndirim oranı; Buraya girilen değerin indirim yüzdesi / indirimi fiyatı seçeneğini "rebateType" alanından belirtebilirsiniz. -->
+    <vRebateType>1</vRebateType> <!-- "rebate" alanına girilen değerin indirim yüzdesi / indirimli fiyatı seçeneğini belirleyebilirsiniz. "1" Yüzde , "0" indirimli fiyattır. -->
+    <vDm3>0.8000</vDm3> <!-- Varyant Desi/ağırlık -->
+    <options>
+     <option>
+      <variantName><![CDATA[Renk]]></variantName> <!-- Varyant Adı/Başlığı -->
+      <variantValue><![CDATA[Gümüş]]></variantValue> <!-- Varyant Değeri -->
+     </option>
+    </options>
+   </variant>
+   </variants>
+  <specs><!-- ÜRÜN ÖZELLİĞİ Kulanımlası durumunda eklenmelidir. -->
+   <spec>
+    <specGroup><![CDATA[Cinsiyet]]></specGroup> <!-- Özellik grup adı -->
+    <specName><![CDATA[Cinsiyet]]></specName> <!-- Özelliğinin Adı -->
+    <specValue><![CDATA[Bayan]]></specValue> <!-- Özellik değeri -->
+   </spec>
+  </specs>
+ </item>
+</root>
